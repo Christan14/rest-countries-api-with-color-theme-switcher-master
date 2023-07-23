@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: hsl(200, 15%, 8%);
+    background:  hsl(0, 0%, 98%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header:nth-child(1){
+    box-shadow:  0 0 5px hsl(209, 23%, 22%);
+}
+
+button{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.toggle{
+    font-size:  18px;
+    cursor: pointer;
+    
+}
+
+.toggle i {
+    margin-right: 5px;
+}
+
+.container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control{
+    width: 400px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    letter-spacing: 0.5px;
+   box-shadow: 0 0 5px hsl(209, 23%, 22%);
+}
+
+.form-control input{
+    width: 100%;
+    padding: 17px 14px;
+    outline: 0;
+    border: none; 
+    font-size: 16px;
+   
+}
+
+.form-control i{
+    position: absolute;
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+}
+.dropDownCon{
+    width:  200px;
+    position: relative;
+}
+
+.dropDown{
+    width: 100%;
+    padding: 17px 14px;
+    border-radius:  5px;
+    box-shadow: 0 0 5px hsl(209, 23%, 22%);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dropDown p{
+    letter-spacing: 0.5px;
+}
+
+.drop{
+    top: 4rem;
+    border-radius: 5px;
+    padding: 10px 14px;
+    position: absolute;
+    box-shadow: 0 0 5px hsl(209, 23%, 22%);
+    width: 100%;
+    background:  hsl(0, 0%, 98%);;
+}
+
+.drop p{
+    margin: 0.5px 0;
+}
+.container-country{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px 10px;
+}
+
+.countrie{
+    min-height: 400px;
+    box-shadow: 0 0 5px hsl(209, 23%, 22%);
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.countrie-img{
+    height: 196px;
+}
+
+.countrie-img img{
+    width: 100%;
+    height: 100%;
+}
+.countrie-description{
+    padding: 10px;
+}
+
+.countrie-description h5{
+    margin: 10px;
+    font-size: 21px;
+}
+
+.countrie-description p{
+    font-size: 14px;
+    padding: 6px 9px;
+}
